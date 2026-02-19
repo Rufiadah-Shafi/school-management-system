@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Sidebar() {
   return (
     <aside className="w-64 bg-white shadow-lg h-screen">
@@ -8,36 +10,36 @@ function Sidebar() {
 
       {/* Navigation Links */}
       <nav className="mt-6">
-        <a 
+        <Link 
           href="/" 
           className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
         >
           📊 Dashboard
-        </a>
-        <a 
+        </Link>
+        <Link 
           href="/students" 
           className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
         >
           👨‍🎓 Students
-        </a>
-        <a 
+        </Link>
+        <Link 
           href="/teachers" 
           className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
         >
           👨‍🏫 Teachers
-        </a>
-        <a 
+        </Link>
+        <Link 
           href="/classes" 
           className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
         >
           📚 Classes
-        </a>
-        <a 
+        </Link>
+        <Link 
           href="/attendance" 
           className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
         >
           ✅ Attendance
-        </a>
+        </Link>
       </nav>
     </aside>
   )

@@ -11,7 +11,7 @@ function Sidebar() {
       {/* Navigation Links */}
       <nav className="mt-6">
         <Link 
-          href="/" 
+          href="/dashboard" 
           className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
         >
           📊 Dashboard
